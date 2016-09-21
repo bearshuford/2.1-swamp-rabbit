@@ -17,11 +17,11 @@ header h1 {
 
 #slogan p, #sales-pitch p {
    font-size: 1.4em;    /* fallback */
-   font-size: calc(12px+1.2vw);
+   font-size: calc(12px + 1.2vw);
 }
 
-#contact p, #contact span {
-   font-size: calc(12px+1.4vw);
+#contact p{
+   font-size: calc(12px + 1.4vw);
 }
 
 #bike-images img{
@@ -48,6 +48,10 @@ header h1 {
   padding-left:0;
 }
 
+footer p {
+   font-size: calc(14px + 1vw);
+   font-weight: 200;
+}
 
 
 .bottom-buffer-s {margin-bottom: 8px;}
