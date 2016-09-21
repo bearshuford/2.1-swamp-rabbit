@@ -1,10 +1,65 @@
-logo {
-}
-
-h1.title {
-   font-size: 6vw;
-}
-
-p.slogan {
+/*
+#logo {
 
 }
+
+#logo img{
+
+}
+*/
+
+
+/*https://madebymike.com.au/writing/precise-control-responsive-typography/*/
+header h1 {
+   font-size: 5.8vw;   /* fallback if calc() is unsupported */
+   font-size: calc( 12px + 4vw);
+}
+
+#slogan p, #sales-pitch p {
+   font-size: 1.4em;    /* fallback */
+   font-size: calc(12px+1.2vw);
+}
+
+#contact p, #contact span {
+   font-size: calc(12px+1.4vw);
+}
+
+#bike-images img{
+   width: 100%;
+}
+
+
+
+#phone-number, #email {
+   font-weight: bold;
+}
+
+
+
+
+
+/*http://stackoverflow.com/a/25023129*/
+.row.no-pad{
+  margin-right:0;
+  margin-left:0;
+}
+.row.no-pad > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+
+
+
+.bottom-buffer-s {margin-bottom: 8px;}
+.bottom-buffer-m {margin-bottom: 16px;}
+.bottom-buffer-l {margin-bottom: 32px;}
+.bottom-buffer-xl {margin-bottom: 48px;}
+
+/*http://stackoverflow.com/a/20096216*/
+/*
+.top5 { margin-top:5px; }
+.top10 { margin-top:10px; }
+.top15 { margin-top:15px; }
+.top17 { margin-top:17px; }
+.top30 { margin-top:30px; }
+*/
